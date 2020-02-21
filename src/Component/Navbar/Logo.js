@@ -2,7 +2,7 @@ import React from 'react'
 
 function Logo() {
     return (
-        <a className="navbar-brand text-white">Logo</a>
+        <a className="navbar-brand">Logo</a>
     )
 }
 
