@@ -27,16 +27,16 @@ class CollapseMenu extends Component {
                                 <button className="btn btn-secondary">Colocar Anúncio</button>
                             </li>
                             <li className="nav-item">
-                                <button className="btn btn-white" onClick={this.clickHandler}>Logout</button>
+                                <button className="btn btn-light" onClick={this.clickHandler}>Logout</button>
                             </li>
                         </React.Fragment>
                     ) : (
                             <React.Fragment>
                                 <li className="nav-item">
-                                    <button className="btn btn-white">Registar</button>
+                                    <button className="btn btn-light">Registar</button>
                                 </li>
                                 <li className="nav-item">
-                                    <button className="btn btn-white" onClick={this.clickHandler}>Entrar</button>
+                                    <button className="btn btn-light" onClick={this.clickHandler}>Entrar</button>
                                 </li>
                             </React.Fragment>
                         )}
