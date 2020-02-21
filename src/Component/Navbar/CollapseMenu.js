@@ -20,14 +20,14 @@ class CollapseMenu extends Component {
         const { isLoggedIn } = this.state
         return (
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav ml-auto">
+                <ul className="navbar-nav ml-auto float-right">
                     {isLoggedIn ? (
                         <React.Fragment>
                             <li className="nav-item">
-                                <button className="btn btn-primary btn-block">Colocar Anuncio</button>
+                                <button className="btn btn-primary">Colocar Anuncio</button>
                             </li>
                             <li className="nav-item">
-                                <button className="btn btn-primary btn-block" onClick={this.clickHandler}>Logout</button>
+                                <button className="btn btn-primary" onClick={this.clickHandler}>Logout</button>
                             </li>
                         </React.Fragment>
                     ) : (
@@ -36,7 +36,7 @@ class CollapseMenu extends Component {
                                     <button className="btn btn-primary">Registar</button>
                                 </li>
                                 <li className="nav-item">
-                                    <button className="btn btn-primary btn-block" onClick={this.clickHandler}>Entrar</button>
+                                    <button className="btn btn-primary" onClick={this.clickHandler}>Entrar</button>
                                 </li>
                             </React.Fragment>
                         )}
