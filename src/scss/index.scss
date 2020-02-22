@@ -1,6 +1,7 @@
 
 $theme-colors: (
-  "light": #FFFFFF
+  "light": #FFFFFF,
+  "primary": rgb(19, 69, 163)
 );
 
 @import "../../node_modules/bootstrap/scss/bootstrap";

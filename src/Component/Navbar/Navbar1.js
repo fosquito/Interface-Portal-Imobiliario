@@ -4,9 +4,12 @@ import Collapser from './Collapser'
 
 function Navbar1() {
     return (
+
         <navbar className="navbar navbar-expand-md navbar-light bg-light border-bottom">
-           <Logo />
-           <Collapser />
+            <div className="container">
+                <Logo />
+                <Collapser />
+            </div>
         </navbar>
     )
 }

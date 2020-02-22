@@ -24,10 +24,10 @@ class CollapseMenu extends Component {
                     {isLoggedIn ? (
                         <React.Fragment>
                             <li className="nav-item">
-                                <button className="btn btn-secondary">Colocar Anúncio</button>
+                                <button className="btn btn-primary mr-2">Colocar Anúncio</button>
                             </li>
                             <li className="nav-item">
-                                <button className="btn btn-light" onClick={this.clickHandler}>Logout</button>
+                                <button className="btn btn-light" onClick={this.clickHandler}>Sair</button>
                             </li>
                         </React.Fragment>
                     ) : (
