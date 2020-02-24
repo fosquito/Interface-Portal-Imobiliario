@@ -1,7 +1,9 @@
 
 $theme-colors: (
   "light": #FFFFFF,
-  "primary": rgb(14, 76, 190)
+  "primary": #6D7993,
+  "secondary": #96858F,
+  "tertiary": #9099A2,
 );
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
