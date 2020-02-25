@@ -5,12 +5,14 @@ import { Navbar } from 'react-bootstrap'
 
 function Navbar1() {
     return (
-            <Navbar className="navbar navbar-expand-md navbar-light bg-light border-bottom">
+        <section id="navbar">
+            <Navbar className="navbar navbar-expand-md navbar-light bg-light border-bottom border-tertiary">
                 <div className="container">
                     <Logo />
                     <Collapser />
                 </div>
             </Navbar>
+        </section>
     )
 }
 
