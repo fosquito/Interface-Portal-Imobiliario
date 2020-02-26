@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Message() {
+function Message({message}) {
     return (
         <div>
-            
-        </div>
+            {message.text}
+        </div>       
     )
 }
 
