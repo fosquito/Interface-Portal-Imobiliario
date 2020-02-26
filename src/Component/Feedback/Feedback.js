@@ -1,5 +1,6 @@
 import React from 'react'
 import AdsNumber from './AdsNumber'
+import FeddbackCarrocel from './FeddbackCarrocel'
 
 function Feedback() {
     return (
@@ -9,8 +10,8 @@ function Feedback() {
                     <div className="col-4 justify-content-center">
                         <AdsNumber />
                     </div>
-                    <div className="col-8 bg-danger justify-content-center">
-                        adwwad
+                    <div className="col-8 justify-content-center">
+                        <FeddbackCarrocel />
                     </div>
                 </div>
             </div>

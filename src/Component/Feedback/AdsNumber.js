@@ -21,10 +21,10 @@ class AdsNumber extends Component {
         const { adsNumber } = this.state
         return (
             <React.Fragment>
-                <div className="h4 d-flex justify-content-center">Anúncios publicados</div>
-                <div className="h2 d-flex justify-content-center text-primary">{Math.floor(adsNumber / 76)}</div>
-                <div className="h4 pt-5 d-flex justify-content-center">Anúncios encontrados</div>
-                <div className="h2 d-flex justify-content-center text-primary">{adsNumber}</div>
+                <div className="h3 pt-5 text-center">Anúncios publicados no nosso site</div>
+                <div className="h1 pt-2 d-flex justify-content-center text-primary">{Math.floor(adsNumber / 76)}</div>
+                <div className="h3 pt-5 text-center">Anúncios seguros encontrados na internet</div>
+                <div className="h1 pt-2 d-flex justify-content-center text-primary">{adsNumber}</div>
                
             </React.Fragment>
         )

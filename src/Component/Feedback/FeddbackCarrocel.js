@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function FeddbackCarrocel() {
-    return (
-        <div>
-            
-        </div>
-    )
+class FeddbackCarrocel extends Component {
+    render() {
+        return (
+            <div>
+                
+            </div>
+        )
+    }
 }
 
 export default FeddbackCarrocel
+
