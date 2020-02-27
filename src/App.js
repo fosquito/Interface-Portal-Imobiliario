@@ -3,6 +3,7 @@ import Navbar1 from './Component/Navbar/Navbar1';
 import Footer1 from './Component/Footer/Footer1';
 import Header from './Component/Header/Header';
 import Feedback from './Component/Feedback/Feedback';
+import WhyUs from './Component/WhyUs/WhyUs';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Navbar1 />
 
       <Header />
+
+      <WhyUs />
 
       <Feedback />
 

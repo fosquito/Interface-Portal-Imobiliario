@@ -6,7 +6,7 @@ import JavascriptTimeAgo from 'javascript-time-ago'
 JavascriptTimeAgo.locale(pt)
 
 function Message({ message }) {
-    const {personal, text, date} = message
+    const { personal, text, date } = message
 
     return (
         <div className="container-fluid">
@@ -16,8 +16,8 @@ function Message({ message }) {
             <div className="row pt-1 text-light h5">
                 {personal.name}
             </div>
-            <div className="row pt-1 text-lightGrey h6 justify-content-center">
-            <ReactTimeAgo date={Date.parse(date)} locale="pt"/>
+            <div className="row pt-1 text-lightGrey justify-content-center">
+                    <ReactTimeAgo date={Date.parse(date)} locale="pt" />
             </div>
         </div>
     )
