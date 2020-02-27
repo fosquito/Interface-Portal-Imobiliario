@@ -7,10 +7,10 @@ function Feedback() {
         <section id="feedback">
             <div className="container py-5">
                 <div className="row">
-                    <div className="col-4 justify-content-center">
+                    <div className="col-md-4 justify-content-center">
                         <AdsNumber />
                     </div>
-                    <div className="col-8 justify-content-center">
+                    <div className="col-md-8 py-5 bg-secondary">
                         <FeedbackCarrocel />
                     </div>
                 </div>
