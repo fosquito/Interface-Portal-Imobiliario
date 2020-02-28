@@ -11,17 +11,17 @@ function WhyUs() {
                     <div className="col-lg-4 pb-5 justify-content-center">
                         <div className="h1 text-center border w-50 mx-auto h-50 text-lightGrey">Icon</div>
                         <div className="h3 text-center text-tertiary">Casas reais</div>
-                        <div className="text-center p-4 h6 text-primary">Apenas são aceites anúncios de imóveis com imagens, localização e contacto telefónico. Desta forma, asseguramos que os anúncios são verdadeiros a fim de evitar burlas.</div>
+                        <div className="text-center p-4 h6 text-primary">Apenas são aceites anúncios de imóveis com imagens, localização e contacto telefónico. Desta forma, asseguramos que os anúncios são verdadeiros.</div>
                     </div>
                     <div className="col-lg-4 pb-5 justify-content-center">
                         <div className="h1 text-center border w-50 mx-auto h-50 text-lightGrey">Icon</div>
-                        <div className="h3 text-center text-tertiary">Chat privado</div>
-                        <div className="text-center p-4 h6 text-primary">Se preferir conversar através do chat, neste site também é possível. Aconselhamos a não falar por outras plataformas a não ser que seja por chamada telefónica.</div>
+                        <div className="h3 text-center text-tertiary">Agentes virtuais</div>
+                        <div className="text-center p-4 h6 text-primary">Foram desenvolvidos agentes virtuais que pesquisam na internet por anúncios de imóveis. Estes asseguram-se que os imóveis encontrados são reais e dispõem de toda a informação necessário.</div>
                     </div>
                     <div className="col-lg-4 pb-5 justify-content-center">
                         <div className="h1 text-center border w-50 mx-auto h-50 text-lightGrey">Icon</div>
                         <div className="h3 text-center text-tertiary">Apoio ao cliente</div>
-                        <div className="text-center p-4 h6 text-primary">Dispomos de um serviço de apoio ao cliente. Repondemos às suas dúvidas ou queixas dentro de 24 horas, 7 dias por semana, 365 dias por ano.</div>
+                        <div className="text-center p-4 h6 text-primary">Dispomos de um serviço de apoio ao cliente. Repondemos às suas dúvidas ou queixas dentro de 24 horas úteis. Procuramos sempre satisfazer os nossos clientes.</div>
                     </div>
                 </div>
             </div>
