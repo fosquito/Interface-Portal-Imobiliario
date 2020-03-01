@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {
-    Link
+    NavLink
 } from "react-router-dom";
 
 class CollapseMenu extends Component {
@@ -39,10 +39,10 @@ class CollapseMenu extends Component {
                                 <li className="nav-item">
                                     <button className="btn btn-light">Registar</button>
                                 </li>
-                                <li className="nav-item">
-                                    <Link to={'/login'}>
+                                <li className="nav-item" >
+                                    <NavLink exact to={'/login'}>
                                         <button className="btn btn-light" onClick={this.clickHandler}>Entrar</button>
-                                    </Link>
+                                    </NavLink>
                                 </li>
                             </React.Fragment>
                         )}

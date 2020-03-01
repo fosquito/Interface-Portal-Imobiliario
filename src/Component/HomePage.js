@@ -6,17 +6,12 @@ import Footer1 from './Footer/Footer1'
 
 function HomePage() {
     return (
-        <React.Fragment>
-            
-
+        <div className="position-absolute w-100">
             <Header />
-
-            <WhyUs /> 
-
+            <WhyUs />
             <Feedback />
-
             <Footer1 />
-        </React.Fragment>
+        </div>
     )
 }
 
