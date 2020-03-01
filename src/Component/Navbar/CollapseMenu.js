@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import {
+    Link
+} from "react-router-dom";
 
 class CollapseMenu extends Component {
     constructor(props) {
@@ -10,15 +13,16 @@ class CollapseMenu extends Component {
     }
 
     clickHandler = () => {
-        this.setState({
-            isLoggedIn: !this.state.isLoggedIn
-        })
+        // this.setState({
+        //     isLoggedIn: !this.state.isLoggedIn
+        // })
         document.activeElement.blur()
     }
 
     render() {
         const { isLoggedIn } = this.state
         return (
+
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto float-right">
                     {isLoggedIn ? (
@@ -36,7 +40,9 @@ class CollapseMenu extends Component {
                                     <button className="btn btn-light">Registar</button>
                                 </li>
                                 <li className="nav-item">
-                                    <button className="btn btn-light" onClick={this.clickHandler}>Entrar</button>
+                                    <Link to={'/login'}>
+                                        <button className="btn btn-light" onClick={this.clickHandler}>Entrar</button>
+                                    </Link>
                                 </li>
                             </React.Fragment>
                         )}

@@ -5,7 +5,7 @@ import FooterMenu from './FooterMenu'
 function Footer1() {
     return (
         <section id="footer">
-            <footer className="bg-light border-top border-lightGrey">
+            <footer className="bg-light border-top border-lightGrey py-2">
                 <div className="container d-flex justify-content-md-center">
                     <ul className="list-group list-group-horizontal-md">
                         <li className="list-group-item border-0">
