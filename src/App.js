@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import HomePage from './Component/HomePage';
 import LoginPage from './Component/Login/Login'
 import Navbar1 from './Component/Navbar/Navbar1'
+import Footer1 from './Component/Footer/Footer1'
 import { Route, Switch, __RouterContext } from 'react-router-dom'
 import { useTransition, animated } from 'react-spring'
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <>
       <Navbar1 />
-      {transitions.map(({item, props, key}) => (
+      {transitions.map(({ item, props, key }) => (
         <animated.div key={key} style={props}>
           <Switch location={item}>
             <Route exact path="/" component={HomePage} />
@@ -25,7 +26,6 @@ function App() {
           </Switch>
         </animated.div>
       ))}
-
     </>
   )
 }

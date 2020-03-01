@@ -16,7 +16,7 @@ function WhyUs() {
                     <div className="col-lg-4 pb-5 justify-content-center">
                         <div className="h1 text-center border w-50 mx-auto h-50 text-lightGrey">Icon</div>
                         <div className="h3 text-center text-tertiary">Agentes virtuais</div>
-                        <div className="text-center p-4 h6 text-primary">Foram desenvolvidos agentes virtuais que pesquisam na internet por anúncios de imóveis. Estes asseguram-se que os imóveis encontrados são reais e dispõem de toda a informação necessário.</div>
+                        <div className="text-center p-4 h6 text-primary">Foram desenvolvidos agentes virtuais que pesquisam na internet por anúncios de imóveis. Estes asseguram-se que os imóveis encontrados são reais e dispõem de toda a informação necessária.</div>
                     </div>
                     <div className="col-lg-4 pb-5 justify-content-center">
                         <div className="h1 text-center border w-50 mx-auto h-50 text-lightGrey">Icon</div>

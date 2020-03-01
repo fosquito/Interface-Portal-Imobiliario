@@ -23,7 +23,7 @@ class AdsNumber extends Component {
             <React.Fragment>
                 <div className="h3 pt-5 text-center">Anúncios publicados no nosso site</div>
                 <div className="h1 pt-2 d-flex justify-content-center text-primary">{Math.floor(adsNumber / 76)}</div>
-                <div className="h3 pt-5 text-center">Anúncios seguros encontrados na internet</div>
+                <div className="h3 pt-5 text-center">Anúncios encontrados na internet</div>
                 <div className="h1 pt-2 d-flex justify-content-center text-primary">{adsNumber}</div>
                
             </React.Fragment>

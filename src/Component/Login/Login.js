@@ -1,9 +1,13 @@
 import React from 'react'
+import Footer1 from '../Footer/Footer1'
 
 function Login() {
     return (
-        <div className="container position-absolute w-100">
-            Login page
+        <div className="position-absolute w-100">
+            <div className="container">
+                Login Page
+            </div>
+            <Footer1 />
         </div>
     )
 }
