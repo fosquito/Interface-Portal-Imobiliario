@@ -10,7 +10,7 @@ class LoginForm extends Component {
     render() {
 
         return (
-            <div className="container py-5">
+            <div className="container py-4">
                 <form>
                     <div className="form-group social-login mx-auto py-1">
                         <FacebookLoginButton iconSize="20px" align="center">
@@ -28,7 +28,15 @@ class LoginForm extends Component {
                         </TwitterLoginButton>
                     </div>
                     <div className="h6 text-muted py-4">OU</div>
-                    
+                    <div className="form-group social-login mx-auto py-1">
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" />
+                    </div>
+                    <div className="form-group social-login mx-auto py-1">
+                        <input type="password" class="form-control" id="Password" placeholder="Password" />
+                    </div>
+                    <div className="social-login mx-auto py-4">
+                        <button type="submit" class="btn btn-primary w-50">Submit</button>
+                    </div>
                 </form>
             </div>
 

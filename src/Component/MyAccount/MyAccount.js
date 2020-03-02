@@ -19,7 +19,7 @@ class MyAccount extends Component {
             <div className="position-absolute w-100">
                 <BrowserRouter>
                     <div className="card card-login mx-auto text-center my-5 shadow-lg p-3 mb-5 bg-white rounded">
-                        <div className="card-header py-0 px-5 bg-primary border-bottom-0 border-danger">
+                        <div className="card-header py-0 px-5 bg-primary border-bottom-0">
                             <MyAccountNav isLoggedIn={this.state.isLoggedIn}/>
                         </div>
                         <div className="card-body">
