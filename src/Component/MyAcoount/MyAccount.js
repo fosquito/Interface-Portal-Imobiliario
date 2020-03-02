@@ -28,8 +28,8 @@ class MyAccount extends Component {
                             </Switch>
                         </div>
                     </div>
-                    <Footer1 />
                 </BrowserRouter>
+                <Footer1 />
             </div>
         )
     }

@@ -4,6 +4,7 @@ import MyAccount from './Component/MyAcoount/MyAccount'
 import Navbar1 from './Component/Navbar/Navbar1'
 import { Route, Switch, __RouterContext } from 'react-router-dom'
 import { useTransition, animated } from 'react-spring'
+import Footer1 from './Component/Footer/Footer1';
 
 function App() {
 
