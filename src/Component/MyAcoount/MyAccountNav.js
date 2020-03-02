@@ -3,18 +3,23 @@ import { NavLink } from 'react-router-dom'
 
 function MyAccountNav() {
     return (
-        <ul className="nav nav-tabs card-header-tabs">
-            <li className="nav-item">
-                <NavLink exact to={'/myaccount/login'}>
-                    <div className="a nav-link active">Entrar</div>
+        <div className="row">
+            <div className="col-6 pt-2">
+                <NavLink exact to={'/login'}>
+                    <button className="btn btn-light w-100 rounded-0">
+                        <h4>Entrar</h4>
+                    </button>
                 </NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink exact to={'/myaccount/register'}>
-                    <div className="a nav-link">Registar</div>
+            </div>
+            <div className="col-6 pt-2">
+                <NavLink exact to={'/register'}>
+                    <button className="btn btn-primary w-100 rounded-0">
+                        <h4>Registar</h4>
+                    </button>
                 </NavLink>
-            </li>
-        </ul>
+
+            </div>
+        </div>
     )
 }
 
