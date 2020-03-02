@@ -1,8 +1,7 @@
 import React, { useContext } from 'react';
 import HomePage from './Component/HomePage';
-import LoginPage from './Component/Login/Login'
+import MyAccount from './Component/MyAcoount/MyAccount'
 import Navbar1 from './Component/Navbar/Navbar1'
-import Footer1 from './Component/Footer/Footer1'
 import { Route, Switch, __RouterContext } from 'react-router-dom'
 import { useTransition, animated } from 'react-spring'
 
@@ -22,7 +21,7 @@ function App() {
         <animated.div key={key} style={props}>
           <Switch location={item}>
             <Route exact path="/" component={HomePage} />
-            <Route exact path="/login" component={LoginPage} />
+            <Route exact path="/myaccount" component={MyAccount} />
           </Switch>
         </animated.div>
       ))}

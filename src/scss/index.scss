@@ -25,3 +25,11 @@ body::-webkit-scrollbar {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+.nav-item a {
+  text-decoration: none;
+  outline: none;
+}
+
+.card-login {
+  max-width: 768px;
+}
