@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
 import HomePage from './Component/HomePage';
-import MyAccount from './Component/MyAcoount/MyAccount'
+import MyAccount from './Component/MyAccount/MyAccount'
 import Navbar1 from './Component/Navbar/Navbar1'
 import { Route, Switch, __RouterContext } from 'react-router-dom'
 import { useTransition, animated } from 'react-spring'
-import Footer1 from './Component/Footer/Footer1';
 
 function App() {
 

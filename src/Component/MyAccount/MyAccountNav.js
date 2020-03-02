@@ -40,14 +40,14 @@ class MyAccountNav extends Component {
                 <div className="col-6 pt-2">
                     <NavLink exact to={'/login'}>
                         <button className={btnLogin} onClick={this.buttonClicked}>
-                            <h4>Entrar</h4>
+                            <h5>Entrar</h5>
                         </button>
                     </NavLink>
                 </div>
                 <div className="col-6 pt-2">
                     <NavLink exact to={'/register'}>
                         <button className={btnRegister} onClick={this.buttonClicked}>
-                            <h4>Registar</h4>
+                            <h5>Registar</h5>
                         </button>
                     </NavLink>
 

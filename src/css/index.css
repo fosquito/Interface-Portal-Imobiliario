@@ -8006,10 +8006,13 @@ code {
   outline: none; }
 
 .card-login {
-  max-width: 768px; }
+  max-width: 480px; }
 
 .nohover {
   background-color: white !important;
   border-color: white !important; }
+
+.social-login {
+  max-width: 350px; }
 
 /*# sourceMappingURL=index.css.map */

@@ -36,7 +36,7 @@ class CollapseMenu extends Component {
                         </li>
                     ) : (
                             <li className="nav-item" >
-                                <NavLink exact to={'/myaccount'}>
+                                <NavLink exact to={ isLoggedIn ? '/myaccount' : '/login'}>
                                     <button className="btn btn-light" onClick={this.clickHandler}>Minha conta</button>
                                 </NavLink>
                             </li>
