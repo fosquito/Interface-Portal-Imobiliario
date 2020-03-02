@@ -21,8 +21,8 @@ function App() {
         <animated.div key={key} style={props}>
           <Switch location={item}>
             <Route exact path="/" component={HomePage} />
-            <Route exact path="/myaccount" component={MyAccount} />
-          </Switch>
+            <Route path="/(myaccount|login|register)" component={MyAccount} />
+          </Switch> 
         </animated.div>
       ))}
     </>

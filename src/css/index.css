@@ -8008,4 +8008,8 @@ code {
 .card-login {
   max-width: 768px; }
 
+.nohover {
+  background-color: white !important;
+  border-color: white !important; }
+
 /*# sourceMappingURL=index.css.map */

@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 
 class AdsNumber extends Component {
+
+    _isMounted = false
+
     constructor(props) {
         super(props)
 
@@ -10,11 +13,17 @@ class AdsNumber extends Component {
     }
 
     componentDidMount = () => {
+        this._isMounted = true
         this.myInterval = setInterval(() => {
-            this.setState({
-                adsNumber: Math.floor((new Date().getTime() - new Date("January 01, 2020").getTime()) / (1000 * 60))
-            })
-        }, 1000)
+            if(this._isMounted)
+                this.setState({
+                    adsNumber: Math.floor((new Date().getTime() - new Date("January 01, 2020").getTime()) / (1000 * 60))
+                })
+            }, 1000)
+    }
+
+    componentWillUnmount() {
+        this._isMounted = false
     }
 
     render() {
