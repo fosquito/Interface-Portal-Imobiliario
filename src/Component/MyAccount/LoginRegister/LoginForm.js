@@ -4,11 +4,11 @@ import {
     GoogleLoginButton,
     TwitterLoginButton,
 } from "react-social-login-buttons";
+import { Link } from 'react-router-dom';
 
 class LoginForm extends Component {
 
     render() {
-
         return (
             <div className="container py-4">
                 <form>
@@ -34,8 +34,13 @@ class LoginForm extends Component {
                     <div className="form-group social-login mx-auto">
                         <input type="password" class="form-control" id="Password" placeholder="Password" />
                     </div>
+                    <div className="social-login p-3">
+                        <div className="p text-justify" style={{ fontSize: 14 }}>
+                            <Link>Esqueceu-se da password?</Link>
+                        </div>
+                    </div>
                     <div className="social-login mx-auto py-4">
-                        <button type="submit" class="btn btn-primary w-50">Submit</button>
+                        <button type="submit" class="btn btn-primary w-50">Entrar</button>
                     </div>
                 </form>
             </div>

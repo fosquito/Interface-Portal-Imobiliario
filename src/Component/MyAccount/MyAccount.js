@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import MyAccountNav from './MyAccountNav'
 import Footer1 from '../Footer/Footer1'
-import LoginForm from './Login/LoginForm'
+import LoginForm from './LoginRegister/LoginForm'
+import RegisterForm from './LoginRegister/RegisterForm'
 
 class MyAccount extends Component {
     constructor(props) {
@@ -25,7 +26,7 @@ class MyAccount extends Component {
                         <div className="card-body">
                             <Switch>
                                 <Route exact path="/login" component={LoginForm}/>
-                                <Route exact path="/register"/>
+                                <Route exact path="/register" component={RegisterForm}/>
                             </Switch>
                         </div>
                     </div>
