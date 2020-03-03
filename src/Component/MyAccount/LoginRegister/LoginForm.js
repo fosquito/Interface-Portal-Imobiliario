@@ -39,7 +39,7 @@ class LoginForm extends Component {
                             <Link>Esqueceu-se da password?</Link>
                         </div>
                     </div>
-                    <div className="social-login mx-auto py-4">
+                    <div className="social-login mx-auto pt-3">
                         <button type="submit" class="btn btn-primary w-50">Entrar</button>
                     </div>
                 </form>

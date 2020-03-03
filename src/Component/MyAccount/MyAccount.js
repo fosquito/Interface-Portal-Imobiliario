@@ -14,7 +14,6 @@ class MyAccount extends Component {
         }
     }
     
-
     render() {
         return (
             <div className="position-absolute w-100">

@@ -50,7 +50,6 @@ class MyAccountNav extends Component {
                             <h5>Registar</h5>
                         </button>
                     </NavLink>
-
                 </div>
             </div>
         )

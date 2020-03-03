@@ -22,7 +22,7 @@ function App() {
           <Switch location={item}>
             <Route exact path="/" component={HomePage} />
             <Route path="/(myaccount|login|register)" component={MyAccount} />
-          </Switch> 
+          </Switch>
         </animated.div>
       ))}
     </>

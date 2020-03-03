@@ -61,7 +61,7 @@ class RegisterForm extends Component {
                             Receber informações de imóveis, notícias e outras comunicações promocionais através do email.
                         </div>
                     </div>
-                    <div className="social-login mx-auto py-4">
+                    <div className="social-login mx-auto pt-3">
                         <button type="submit" class="btn btn-primary w-50">Registar</button>
                     </div>
                 </form>
