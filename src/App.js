@@ -7,6 +7,7 @@ import { useTransition, animated } from 'react-spring'
 
 function App() {
 
+
   const { location } = useContext(__RouterContext)
   const transitions = useTransition(location, location => location.pathname, {
     from: { opacity: 1, transform: "translate(100%, 0)" },
