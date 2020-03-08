@@ -3,12 +3,13 @@ import {
     FacebookLoginButton,
     GoogleLoginButton,
     TwitterLoginButton,
-} from "react-social-login-buttons";
-import { Link } from 'react-router-dom';
+} from "react-social-login-buttons"
+import { Link } from 'react-router-dom'
+import { MyContext } from '../../MyContext'
 
 class LoginForm extends Component {
-
     render() {
+        console.log(this.context)
         return (
             <div className="container py-4">
                 <form>
@@ -29,24 +30,26 @@ class LoginForm extends Component {
                     </div>
                     <div className="h6 text-muted py-5">OU</div>
                     <div className="form-group social-login mx-auto">
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" />
+                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" />
                     </div>
                     <div className="form-group social-login mx-auto">
-                        <input type="password" class="form-control" id="Password" placeholder="Password" />
+                        <input type="password" className="form-control" id="Password" placeholder="Password" />
                     </div>
                     <div className="social-login p-3">
                         <div className="p text-justify" style={{ fontSize: 14 }}>
-                            <Link>Esqueceu-se da password?</Link>
+                            <Link to={''}>Esqueceu-se da password?</Link>
                         </div>
                     </div>
                     <div className="social-login mx-auto pt-3">
-                        <button type="submit" class="btn btn-primary w-50">Entrar</button>
+                        <button type="submit" className="btn btn-primary w-50" onClick={e => {
+                            e.preventDefault()
+                        }}>Entrar</button>
                     </div>
                 </form>
             </div>
-
         )
     }
 }
 
+LoginForm.contextType = MyContext
 export default LoginForm

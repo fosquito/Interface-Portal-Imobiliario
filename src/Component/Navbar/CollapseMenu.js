@@ -1,28 +1,18 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {
     NavLink
 } from "react-router-dom";
 
-class CollapseMenu extends Component {
-    constructor(props) {
-        super(props)
+function CollapseMenu() {
 
-        this.state = {
-            isLoggedIn: false
-        }
-    }
-
-    clickHandler = () => {
-        // this.setState({
-        //     isLoggedIn: !this.state.isLoggedIn
-        // })
+    const clickHandler = () => {
         document.activeElement.blur()
     }
 
-    render() {
-        const { isLoggedIn } = this.state
-        return (
+    const isLoggedIn = false
 
+
+    return (
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto float-right">
                     <li className="nav-item">
@@ -32,19 +22,19 @@ class CollapseMenu extends Component {
                     </li>
                     {isLoggedIn ? (
                         <li className="nav-item">
-                            <button className="btn btn-light" onClick={this.clickHandler}>Sair</button>
+                            <button className="btn btn-light" onClick={clickHandler}>Sair</button>
                         </li>
                     ) : (
                             <li className="nav-item" >
-                                <NavLink exact to={ isLoggedIn ? '/myaccount' : '/login'}>
-                                    <button className="btn btn-light" onClick={this.clickHandler}>Minha conta</button>
+                                <NavLink exact to={isLoggedIn ? '/myaccount' : '/login'}>
+                                    <button className="btn btn-light" onClick={clickHandler}>Minha conta</button>
                                 </NavLink>
                             </li>
                         )}
                 </ul>
             </div>
-        )
-    }
+    )
 }
+
 
 export default CollapseMenu
